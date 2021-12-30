@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+  min-height: 8vh;
+}
+
+.nav-bar {
+  position: fixed;
+  display: inline-block; 
+  width: 1000px;
+}
+
+.nav-bar ul { 
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 300px;
+  margin-bottom: 10px;
+}
+
+.nav-bar ul li {
+  display: inline-block;
+  position: relative;
+  padding: 10px 30px;
+  border: 2px solid #111;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.nav-bar ul li:hover {
+  color: lightblue;
+  border: white;
+  transition: 0.5s;
+  text-transform: uppercase;
+}
